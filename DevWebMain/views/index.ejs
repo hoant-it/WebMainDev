@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <title>DevExtreme Demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/21.1.3/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/21.1.3/css/dx.light.css" />
+    <script src="https://cdn3.devexpress.com/jslib/21.1.3/js/dx.all.js"></script>
+    <!-- <script src="js/underscore.js"></script> -->
+    <script src="/javascripts/test/data.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/test/styles.css" />
+    <script src="/javascripts/test/index.js"></script>
+</head>
+<body class="dx-viewport">
+    <div class="demo-container">
+        <div id="accordion">
+            <div id="accordion-container">
+            </div>
+
+            <div class="selected-data">
+                <span class="caption">Selected Items</span>
+                <div id="tagbox"></div>
+            </div>
+            
+            <div class="options">
+                <div class="caption">Options</div>
+                <div class="option">
+                    <div id="multiple-enabled"></div>
+                </div>    
+                <div class="option">
+                    <div id="collapsible-enabled"></div>
+                </div>
+                <div class="option">
+                    <span>Animation duration</span>
+                    <div id="slider"></div>
+                </div>                
+            </div>
+        </div>
+        
+        <script type="text/html" id="title">
+            <h1><%= CompanyName%></h1>
+        </script>
+        
+        <script type="text/html" id="customer">
+            <div class="accodion-item">
+                <div>
+                    <p>
+                        <b><%= City%></b> 
+                        (<span><%= State%></span>)
+                    </p>
+                    <p>
+                        <span><%= Zipcode%></span> 
+                        <span><%= Address%></span>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Phone: <b><%= Phone%></b>
+                    </p>
+                    <p>
+                        Fax: <b><%= Fax%></b>
+                    </p>
+                    <p>
+                        Website: 
+                        <a href="<%= Website%>" target="_blank">
+                            <%= Website%>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </script>
+    </div>
+</body>
+</html>

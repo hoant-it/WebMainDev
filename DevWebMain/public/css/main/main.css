@@ -1,0 +1,102 @@
+
+#toolbar {
+    background-color: rgba(191, 191, 191, .15);
+    padding: 5px 10px;
+}
+ 
+.dx-list-item-icon-container, .dx-toolbar-before {
+    width: 36px;
+    padding-right: 0px !important;
+    text-align: center;
+}
+ 
+.dx-list-item-content {
+    padding-left: 10px !important;
+}
+
+.dx-button {
+    background-color: rgba(191, 191, 191, -0.15);
+    border: none;
+}
+#drawer {
+    height: 86vh;
+}
+
+.panel-list {
+    height: 100%;
+}
+
+.dx-drawer-expand.dx-drawer-right .panel-list {
+    float: right;
+ 
+}
+
+.panel-list .dx-list-item {
+    color: #fff;
+    border-top: 1px solid rgba(221, 221, 221, .2);
+}
+
+.panel-list .dx-list-item .dx-icon {
+    color: #fff !important;
+}
+
+.options {
+    padding: 20px;
+    background-color: rgba(191, 191, 191, .15);
+}
+
+.caption {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.option {
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#content {
+    height: 100%;
+    padding: 10px 20px;
+}
+
+#content h2 {
+    font-size: 26px;
+}
+
+.dx-theme-accent-as-background-color {
+    background-color: #efecc2!important;
+    fill: #efecc2!important;
+}
+
+.dx-treelist-headers {  
+    color: #ffffff !important;  
+    background-color: #003666 !important;  
+}
+
+.dx-treelist-select-all {  
+    background-color: #003666 !important;  
+}
+
+.dx-treelist-rowsview .dx-treelist-content:not(.dx-treelist-content-fixed) {
+    min-height: 100%;
+    background-color: antiquewhite;
+}
+
+.nav_menu{
+    background-color: whitesmoke;
+    height: 48px;
+}
+footer {
+    margin-left: 0px;
+    margin: 0 0 0 0;
+    padding: 0 0;
+}
+
+
+
